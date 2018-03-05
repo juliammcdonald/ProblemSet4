@@ -1,0 +1,116 @@
+SCHOOLS TESTING:
+
+Name: wellesley
+Academics: 10
+Research: 6
+Publications: 4
+Overall rating: 0
+Current rank: 0
+
+
+Name: harvard
+Academics: 1
+Research: 1
+Publications: 1
+Overall rating: 0
+Current rank: 0
+
+Computed rating: 7
+
+GRAD SCHOOLS TESTING:
+RUN 1 (NO STRING[] ARGS PROVIDED):
+Please provide 3 weights (1..5) for Academics, Research, and Publications.
+
+RUN 2:
+There are 4 schools in the database:
+Name: UC Berkeley
+Academics: 9
+Research: 9
+Publications: 9
+Overall rating: 108
+Current rank: 0
+
+
+Name: Stanford
+Academics: 8
+Research: 10
+Publications: 9
+Overall rating: 110
+Current rank: 0
+
+
+Name: MIT
+Academics: 10
+Research: 10
+Publications: 7
+Overall rating: 108
+Current rank: 0
+
+
+Name: CMU
+Academics: 7
+Research: 8
+Publications: 6
+Overall rating: 85
+Current rank: 0
+
+
+
+Ranking of schools from highest to lowest using Academics as a factor:
+MIT
+UC Berkeley
+Stanford
+CMU
+
+There are 4 schools in the database:
+Name: MIT
+Academics: 10
+Research: 10
+Publications: 7
+Overall rating: 108
+Current rank: 10
+
+
+Name: UC Berkeley
+Academics: 9
+Research: 9
+Publications: 9
+Overall rating: 108
+Current rank: 9
+
+
+Name: Stanford
+Academics: 8
+Research: 10
+Publications: 9
+Overall rating: 110
+Current rank: 8
+
+
+Name: CMU
+Academics: 7
+Research: 8
+Publications: 6
+Overall rating: 85
+Current rank: 7
+
+
+
+Ranking of schools from highest to lowest using Research as a factor:
+MIT
+Stanford
+UC Berkeley
+CMU
+
+Ranking of schools from highest to lowest using publications as a factor:
+Stanford
+UC Berkeley
+MIT
+CMU
+
+Ranking of schools from highest to lowest using overall as a factor:
+Stanford
+UC Berkeley
+MIT
+CMU
+

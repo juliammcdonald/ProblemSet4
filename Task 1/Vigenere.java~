@@ -1,0 +1,50 @@
+/**
+ * 
+ */
+public class Vigenere implements Encryptable{
+  //instance variables
+  public String msg;
+  public String password;
+  public boolean encrypted;
+  
+  /**
+   * Constructor: Stores the original message after turning it into all uppercase without spaces.
+   * @param msg - the plain message
+   * @param password - the encryption password
+   */
+  public Vigenere( String msg, String password ){
+    this.msg = msg.toUppercase().replaceAll( "\\s","" );
+    this.password = password.toUppercase();
+  }
+  
+  /**
+   * Encrypts this secret using a Vigenere cipher. Has no effect if this secret is already encrypted.
+   */
+  public void encrypt(){
+    
+  }
+  
+  /**
+   * Decrypts and returns this secret. Has no effect if this secret is not currently encrypted.
+   * @return the secret message
+   */
+  public String decrypt(){
+    
+  }
+  
+  /**
+   * Returns true if this secret is currently encrypted.
+   * @return encryption status
+   */
+  public boolean isEncrypted(){
+    return encrypted;
+  }
+  
+  /**
+   * Returns this secret (may be encrypted).
+   * @return the secret
+   */
+  public String toString(){
+    return msg;
+  }
+}

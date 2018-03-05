@@ -1,0 +1,20 @@
+Main(String [] args):
+       School wellesley = new School("wellesley", 10, 6, 4 );	
+        System.out.println( wellesley +"\n");
+
+	School harvard = new School( "harvard", 1, 1, 1 );
+        System.out.println( harvard );
+	harvard.computeRating(1, 1, 5);
+        System.out.println("Computed rating: " + harvard.getRating());
+
+Output:
+Name: wellesley
+Programs: 10
+Effectiveness: 6
+Impact: 4
+
+Name: harvard
+Programs: 1
+Effectiveness: 1
+Impact: 1
+Computed rating: 7
